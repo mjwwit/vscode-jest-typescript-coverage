@@ -1,0 +1,25 @@
+{
+  "name": "vscode-jest-ts-jest",
+  "version": "1.0.0",
+  "description": "A project demonstrating the use of ts-jest",
+  "main": "dist/index.js",
+  "author": "Michael de Wit <mjwwit@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "jest": "jest --forceExit --coverage --verbose",
+    "test": "npm run jest",
+    "test:watch": "npm run jest -- --watchAll",
+    "start": ""
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-jest": "^22.4.4",
+    "ts-node": "^6.0.2",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^10.0.3"
+  }
+}

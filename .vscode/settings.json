@@ -1,0 +1,5 @@
+{
+  "jest.autoEnable": true,
+  "jest.showCoverageOnLoad": true,
+  "jest.runAllTestsFirst": true
+}
