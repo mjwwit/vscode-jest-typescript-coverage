@@ -1,4 +1,5 @@
 module.exports = {
+	collectCoverage: true,
 	globals: {
 		'ts-jest': {
 			tsConfigFile: 'tsconfig.json'
